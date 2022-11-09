@@ -1,8 +1,10 @@
-/*Generally, the CSS below reads from top -> bottom*/
+/*Generally, the CSS below reads from top -> bottom of the HTML*/
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 html * {
@@ -11,12 +13,39 @@ html * {
 
 .first-section {
       background-color: #1F2937;
+      padding: 0px 15%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
 a, .secondary-hero {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.first-main {
+    display: flex;
+    margin-bottom: 15%;
+    align-items: center;
+       
+}
+
+.hero-container {
+   justify-content: flex-start;
+   width: 50%;
+}
+
+.hero-img {
+     width: 50%;
+}
+
+img {
+    max-width: 75%;
+    max-height: 50%;
+  }
 
 .hero-text {
     font-size: 48px;
@@ -35,6 +64,10 @@ a, .secondary-hero {
     border: none;
 }
 
+.second-section {
+    padding: 0px 15%;
+}
+
 .second-header {
     font-size: 36px;
     font-weight: 900;
@@ -43,6 +76,7 @@ a, .secondary-hero {
 
 .third-section {
     background-color: #E5E7EB;
+    padding: 0px 15%;
 }
 
 .quote-text {
@@ -54,6 +88,10 @@ a, .secondary-hero {
 
 .quoter {
     font-weight: 900;
+}
+
+.forth-section {
+    padding: 0px 15%;
 }
 
 .action-container {

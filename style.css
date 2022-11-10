@@ -17,8 +17,16 @@ html * {
 }
 
 header {
+    background-color: #1F2937;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
+    padding: 15px 15%;
 }
 
 a, .secondary-hero {
@@ -74,6 +82,7 @@ a:hover {
 .header-left {
     font-size: 24px;
     color: #F9FAF8;
+    font-style: italic;
 }
 
 .hero-button {
